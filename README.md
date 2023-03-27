@@ -8,7 +8,11 @@ Este código está escrito en Python 3. Para ejecutarlo, necesitarás tener Pyth
 
 ## Uso
 
-Para utilizar esta implementación de la neurona de McCulloch-Pitts, puedes crear una instancia de la clase `McCullochPitts`. El constructor toma tres argumentos: `n_bits`, `compuerta` y `epoch`. `n_bits` es el número de bits que se utilizarán en la entrada, `compuerta` es el tipo de compuerta lógica que se utilizará para entrenar la neurona, y `epoch` es el número de épocas que se utilizarán durante el entrenamiento.
+Para utilizar esta implementación de la neurona de McCulloch-Pitts, puedes crear una instancia de la clase `McCullochPitts`. El constructor toma tres argumentos: `n_bits`, `compuerta` y `epoch`:
+
+- `n_bits` es el número de bits que se utilizarán en la entrada 
+- `compuerta` es el tipo de compuerta lógica que se utilizará para entrenar la neurona
+- `epoch` es el número de épocas que se utilizarán durante el entrenamiento.
 
 Una vez que haya creado una instancia de la clase `McCullochPitts`, puede entrenar la neurona llamando al método `entrenar`. Después de entrenar la neurona, puede evaluarla en nuevas entradas llamando al método `evaluar`.
 
